@@ -1,0 +1,11 @@
+{
+  "name": "Ignore Webadvisor Cookie Limits",
+  "description": "Bypasses Webadvisors cookie limit",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "js": ["index.js"],
+    "matches": ["https://webadvisor.uoguelph.ca/*NULL*"]
+  }],
+  "icons": { "16": "appIcon.jpg", "128": "appIcon.jpg" }
+}
