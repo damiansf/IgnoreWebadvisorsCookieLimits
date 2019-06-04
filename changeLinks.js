@@ -4,6 +4,7 @@ fixTitles("SEC_SHORT_TITLE_");
 fixTitles("CSVIEW1_SHORT_TITLE_");
 fixTitles("LIST_VAR6_");
 
+//Dirty work around for fixing title links and preventing webadvisors code from picking them up
 function fixTitles(id) {
 
 	var i = 1;
